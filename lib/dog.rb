@@ -8,7 +8,8 @@ def name
   end
   def breed =(breed)
     @breed = breed
-
+    def breed
+      @breed
   end
 end
 snoopy = Dog.new
