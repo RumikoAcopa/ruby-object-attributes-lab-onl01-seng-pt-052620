@@ -6,4 +6,15 @@ end
 def name
   @name
   end
+  def breed =(breed)
+    @breed = breed 
+    
+  end
 end
+snoopy = Dog.new
+snoopy.name = "snoopy"
+
+puts snoopy.name
+
+snoopy.breed = "Beagle"
+puts snoopy.breed
