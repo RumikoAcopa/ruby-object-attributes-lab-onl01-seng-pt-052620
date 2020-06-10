@@ -1,7 +1,7 @@
 class Dog
 #need an instance variable
 def name=(name)
-  @name = dogs_name
+  @name = name
 end
 def name
   @name
