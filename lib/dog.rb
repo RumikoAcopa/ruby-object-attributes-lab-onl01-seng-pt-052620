@@ -11,7 +11,7 @@ def name
     def breed
       @breed
     end
-end
+
 snoopy = Dog.new
 snoopy.name = "snoopy"
 puts snoopy.name
