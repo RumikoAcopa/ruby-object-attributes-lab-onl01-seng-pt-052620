@@ -10,7 +10,7 @@ def name
     @breed = breed
     def breed
       @breed
-  end
+    end
 end
 snoopy = Dog.new
 snoopy.name = "snoopy"
