@@ -7,3 +7,10 @@ class Person
     @name
   end
 end
+
+beyonce = Person.new
+beyonce.name = "beyonce"
+puts beyonce.name
+
+beyonce.job = "Singer"
+puts beyonce.job
